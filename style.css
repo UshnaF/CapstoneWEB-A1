@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background-color: rgb(159, 133, 184);
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 55rem;
+    background-color: rgb(66, 38, 94);
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 2.5rem;
+}
+
+li {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.3rem;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+    color: blueviolet;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+article {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#instruct {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 2.3rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: #000;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-card {
+    max-width: 300px;
+    border: 2px solid rgb(85, 21, 158);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.like-btn {
+    cursor: pointer;
+    color: black;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-right: 10px;
+    padding: 0.25rem;
+}
+
+.comment-btn {
+    cursor: pointer;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1rem;
+    background-color: rgb(40, 10, 88);
+    padding: 0.25rem;
+}
+
+span {
+    cursor: pointer;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.comment-card {
+    margin-top: 10px;
+    border: 3px   rgb(226, 219, 255)  double ;
+}
+
+.comment-count {
+    margin-left: 2.4rem;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    margin: auto;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.imageStyle {
+    width: 100%;
+    height: auto;
+    border: 0rem solid black;
+}
+
+.btnStyle {
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+.user{
+
+    color: red;
+}
+
+.title{
+    color: aqua;
+}
